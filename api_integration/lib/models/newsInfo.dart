@@ -4,9 +4,9 @@
 
 import 'dart:convert';
 
-NewsModel NewsModelFromJson(String str) => NewsModel.fromJson(json.decode(str));
+NewsModel newsModelFromJson(String str) => NewsModel.fromJson(json.decode(str));
 
-String NewsModelToJson(NewsModel data) => json.encode(data.toJson());
+String newsModelToJson(NewsModel data) => json.encode(data.toJson());
 
 class NewsModel {
   NewsModel({
